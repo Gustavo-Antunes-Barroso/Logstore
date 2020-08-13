@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>HungryPizza_AppServices</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HungryPizza-Domain\HungryPizza-Domain.csproj" />
+    <ProjectReference Include="..\HungryPizza-Repository\HungryPizza-Repository.csproj" />
+  </ItemGroup>
+
+</Project>
